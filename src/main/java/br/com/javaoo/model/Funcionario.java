@@ -38,4 +38,12 @@ public class Funcionario {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+
+    public double calculaBonificacao() {
+        return this.salario * 0.10;
+    }
+
+    public String getInfo() {
+        return this.nome + " | " + this.cpf;
+    }
 }

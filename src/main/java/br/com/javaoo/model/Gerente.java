@@ -31,4 +31,13 @@ public class Gerente extends Funcionario {
         }
     }
 
+    @Override
+    public double calculaBonificacao() {
+        return getSalario() * 0.15;
+    }
+
+    @Override
+    public String getInfo() {
+        return super.getInfo() + " | " + this.numeroDeFuncionariosGerenciados;
+    }
 }
