@@ -1,11 +1,6 @@
-package br.com.javaoo.app;
+package br.com.javaoo.examplofuncionario;
 
-import br.com.javaoo.model.Funcionario;
-import br.com.javaoo.model.FuncionarioRH;
-import br.com.javaoo.model.Gerente;
-import br.com.javaoo.servico.ControleDeBonificacao;
-
-public class Main {
+public class AppMain {
 
     public static void main(String[] args) {
         Gerente gerente = new Gerente();

@@ -1,6 +1,6 @@
-package br.com.javaoo.servico;
+package br.com.javaoo.examplofuncionario;
 
-import br.com.javaoo.model.Funcionario;
+import br.com.javaoo.examplofuncionario.Funcionario;
 
 public class ControleDeBonificacao {
 

@@ -1,4 +1,4 @@
-package br.com.javaoo.model;
+package br.com.javaoo.examplofuncionario;
 
 public class FuncionarioRH extends Funcionario {
 }
